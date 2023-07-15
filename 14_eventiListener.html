@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="14_eventiListener.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=1x&id=12780&format=png" type="image/x-icon">
+
+    <title>Aula 14</title>
+</head>
+
+<body>
+    <div class="calculadora">
+        <div class="display">
+
+            <h1>CalculadorÉ+Forte </h1>
+    
+            <div class="botao1">
+                <input type="text" id="valor1" placeholder="Digite o primeiro valor" value="">
+    
+            </div>
+            
+            <div class="botao5">
+                <select name="operacoes" id="operacoes">
+                    <option value="somar">+</option>
+                    <option value="subtrair">-</option>
+                    <option value="multiplicar">x</option>
+                    <option value="dividir">/</option>
+            </div>
+    
+            
+            <div class="botao3">
+                <input type="text" id="valor2" placeholder="Digite o segundo valor" value="">
+            </div>
+        </div>
+        
+        
+        <div class="botoes">
+
+            <div class="botao2">
+                <button id="btnSomar" onclick="calcular()">Calcule</button>
+            </div>
+            <div class="botao4">
+                <button id="btnReset">Reset</button>
+            </div>
+        </div>
+        <!-- <h1 id="resultado">0</h1> -->
+
+
+    </div>
+    <script src="14_eventiListener.js"></script>
+</body>
+
+</html>
