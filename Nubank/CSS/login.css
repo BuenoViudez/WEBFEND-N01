@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #820AD1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 120px;
+    top: -20px;
+    left: -10px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#fundo {
+    height: 900px;
+    width: 656px;
+    /* position: relative; */
+    background-color: #ffffff;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ 
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+#CPF{
+    height: 50px;
+    width: 100%;
+    font-size: 22px;
+    margin-left: 150px;
+    font-weight: bold;
+    position: relative;
+    /* top: 85px;  */
+    cursor: pointer;
+    margin-top: 100px;
+
+}
+
+#Senha{
+    height: 50px;
+    width: 100%;
+    font-size: 22px;
+    margin-left: 150px;
+    font-weight: bold;
+    position: relative;
+    /* top: 85px; */
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+#foguete {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 255px;
+    top: -5px;
+
+}
+
+#acesso {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: #820AD1;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 100px;
+    transition: 1s;
+}
+
+#acesso:hover {
+    translate: -5px -5px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+#ES {
+    padding: 15px 5px 10px 5px;
+    border: 2px solid #820AD1;
+    color: #820AD1;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-top: 150px;
+
+}
+
+#NA {
+    padding: 15px 10px 15px 10px;
+    border: 2px solid #820AD1;
+    color: #820AD1;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+input {
+    outline: none;
+    /* background-color: yellow; */
+    border: none;
+    border-bottom: 2px solid #e0e0e0;
+    position: relative;
+    top: -20px;   
+}
+
+.input{
+    height: 40px;
+    width: 510px;
+    font-size: 1.3em;
+}

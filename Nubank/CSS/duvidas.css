@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+    background-color: #820AD1;
+    display: flex;
+}
+
+#logo{
+    width: 120px;
+    top: -20px;
+    left: -10px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#duvidas{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    color: white;
+    background-color: red;
+    font-size: 35px;
+    
+
+}
