@@ -1,0 +1,49 @@
+body,
+html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.container_1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(243, 109, 0);
+}
+
+.container_2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(25, 0, 247);
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+
+body,
+html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_1{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(243, 109, 0);
+}
+
+.container_2{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(25, 0, 247);
+}
+
+
+
+}
