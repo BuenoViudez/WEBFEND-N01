@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CPF Formatado (Com Formatação em Tempo Real)</title>
+</head>
+<body>
+    <label for="cpfInput">CPF:</label>
+    <!-- Input visível para digitar o CPF formatado -->
+    <input type="text" id="cpfInput" name="cpfInput" placeholder="Digite o CPF (formatado)" maxlength="14">
+    <!-- Input hidden para armazenar o CPF apenas com números -->
+    <input type="hidden" id="cpfHidden" name="cpfHidden">
+    <button onclick="submitForm()">Enviar</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
